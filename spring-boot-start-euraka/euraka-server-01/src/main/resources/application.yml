@@ -1,0 +1,19 @@
+server:
+  port: 9998
+spring:
+  application:
+    name: euraka-server-01
+
+eureka:
+  instance:
+    appname: euraka-server-01
+  client:
+    service-url:
+      defaultZone: http://localhost:9999/eureka/,http://localhost:9998/eureka/
+    fetch-registry: false
+    register-with-eureka: false
+
+logging:
+  file: log/euraka-server-01.log
+  level:
+    cn.imacoder.eurakaclient01: info
