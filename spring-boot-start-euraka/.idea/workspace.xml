@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="847f4d58-b3f0-4cd5-99ae-656b88a5f4e7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/euraka-client-01/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/euraka-client-01/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/euraka-client-02/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/euraka-client-02/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/euraka-server-01/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/euraka-server-01/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/euraka-server-02/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/euraka-server-02/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-start-euraka.iml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +66,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../spring-boot-starter/spring-boot-starter" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -179,7 +173,7 @@
       <option name="presentableId" value="Default" />
       <updated>1570772814948</updated>
       <workItem from="1570772816410" duration="20332000" />
-      <workItem from="1570843335946" duration="1319000" />
+      <workItem from="1570843335946" duration="1985000" />
     </task>
     <servers />
   </component>
