@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="847f4d58-b3f0-4cd5-99ae-656b88a5f4e7" name="Default Changelist" comment="" />
+    <list default="true" id="847f4d58-b3f0-4cd5-99ae-656b88a5f4e7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/euraka-client-01/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/euraka-client-01/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/euraka-client-02/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/euraka-client-02/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/euraka-server-01/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/euraka-server-01/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/euraka-server-02/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/euraka-server-02/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-start-euraka.iml" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +37,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -38,6 +55,8 @@
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
@@ -45,6 +64,7 @@
     <option name="runMavenInBackground" value="false" />
   </component>
   <component name="ProjectId" id="1S2s29Z2feBy4NotDUcZeAfr7vo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -52,7 +72,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/euraka-common/src/main/java/cn/imacoder/common/model" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -65,7 +85,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.27446568" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -100,7 +120,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurakaClient01Startup">
+  <component name="RunManager" selected="Spring Boot.EurakaClient02Startup">
     <configuration name="EurakaClient01Startup" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="euraka-client-01" />
       <extension name="coverage">
@@ -143,13 +163,13 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.EurakaClient01Startup" />
         <item itemvalue="Spring Boot.EurakaClient02Startup" />
+        <item itemvalue="Spring Boot.EurakaClient01Startup" />
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\QIUYANJUN\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -159,11 +179,23 @@
       <option name="presentableId" value="Default" />
       <updated>1570772814948</updated>
       <workItem from="1570772816410" duration="20332000" />
+      <workItem from="1570843335946" duration="1319000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
