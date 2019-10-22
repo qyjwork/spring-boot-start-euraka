@@ -5,10 +5,12 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.*;
+import org.springframework.http.server.reactive.ServerHttpRequest;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestOperations;
 import org.springframework.web.client.RestTemplate;
 
+import javax.servlet.http.HttpServletRequest;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.Date;
@@ -29,14 +31,17 @@ public class Client01Service {
 
     private static String client02Name="euraka-client-02".toUpperCase();
     private Logger log=LoggerFactory.getLogger(Client01Service.class);
-
+    @Autowired
+    private HttpServletRequest servletRequest;
     @Autowired
     private RestOperations restTemplate;
 
     @GetMapping("/getInfo/{msg}")
     public String GetInfo(@PathVariable String msg) {
-        log.info("开始调用 euraka-client-01 的 GetInfo ,msg : " + msg);
-        return "调用 euraka-client-01 的 GetInfo 返回: " + msg;
+        String token=servletRequest.getHeader("token");
+        String rsp = "调用 euraka-client-01 的 GetInfo ,msg : " + msg + " , Token: " +token;
+        log.info(rsp);
+        return rsp;
     }
 
     @PostMapping("/postInfo")
@@ -49,9 +54,9 @@ public class Client01Service {
 
         String url=String.format("http://%s/client02/postInfo/", client02Name);
 
-        HttpHeaders headers = new HttpHeaders();
+        HttpHeaders headers=new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);
-        HttpEntity<DemoRequest> requestEntity = new HttpEntity<>(request, headers);
+        HttpEntity<DemoRequest> requestEntity=new HttpEntity<>(request, headers);
 
         log.info("开始 RestTemplate 远程调用 euraka-client-02 的 PostInfo ,URL : " + url + " 请求参数request : " + req);
 

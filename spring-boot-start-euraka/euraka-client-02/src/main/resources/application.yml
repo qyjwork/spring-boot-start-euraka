@@ -1,5 +1,5 @@
 server:
-  port: 8081  # ${random.int[2000,8000]}
+  port: 10001  # ${random.int[2000,8000]}
 spring:
   application:
     name: euraka-client-02
